@@ -1,5 +1,5 @@
 import { getImageUrl } from './utils';
-
+import About from './About';
 function Avatar({ person, size }) {
   return (
     <img
@@ -35,6 +35,7 @@ export default function Profile() {
           name: 'Lin Lanying',
           imageId: '1bX5QH6'
         }}
+        <About person={person}/>
       />
     </div>
   );
